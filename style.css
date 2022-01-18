@@ -1,0 +1,175 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+    margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+/*    //////////////////////////////////////////////////////////////     */
+
+.img1 {
+position: absolute;
+    left: 0;
+    top: 0;
+    width: 412px;
+    height: 766px;
+}
+
+.postavshik {
+    position: absolute;
+    width: 344px;
+    height: 64px;
+    left: 15px;
+    top: 75px;
+
+    font-family: "Times New Roman",serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.nashi_clienti {
+    position: absolute;
+    width: 344px;
+    height: 66px;
+    left: 15px;
+    top: 171px;
+
+    font-family: PT Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.uznai {
+    position: absolute;
+    width: 102px;
+    height: 16px;
+    left: 15px;
+    top: 265px;
+
+    font-family: PT Sans,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.line1 {
+position: absolute;
+width: 99px;
+height: 0;
+left: 15px;
+top: 292px;
+
+border: 3px solid #FFCE50;
+}
+
+.car {
+    position: absolute;
+    left: 35px;
+    top: 405px;
+    width: 345px;
+    height: 253px;
+
+    border-radius: 15px;
+}
+
+.button1 {
+    position: absolute;
+    top: 690px;
+    left: 100px;
+    width: 212px;
+    height: 45px;
+
+    background-color: orangered;
+    cursor: pointer;
+    border-radius: 50px;
+
+    -webkit-box-shadow: 0 5px 10px 2px rgba(197, 153, 23, 1) inset;
+    -moz-box-shadow: 0 5px 10px 2px rgba(197, 153, 23, 1) inset;
+    box-shadow: 0 5px 10px 2px rgba(197, 153, 23, 1) inset;
+    transition: 0.5s;
+}
+
+.button1:hover {
+    background-color: blue;
+}

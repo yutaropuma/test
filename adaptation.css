@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+@media only screen and (max-width: 756px) {
+    .img1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 756px;
+        height: 412px;
+    }
+
+    .postavshik {
+        position: absolute;
+        top: 7px;
+        width: 277px;
+    }
+    .nashi_clienti {
+        position: absolute;
+        top: 101px;
+    }
+    .uznai {
+        position: absolute;
+        top: 222px;
+    }
+    .line1 {
+        position: absolute;
+        top: 253px;
+    }
+    .car {
+        position: absolute;
+        left: 384px;
+        top: 88px;
+    }
+    .button1 {
+        position: absolute;
+        top: 355px;
+        left: 464px;
+    }
+
+
+}
+
